@@ -6,7 +6,7 @@ import requests.packages.urllib3
 
 requests.packages.urllib3.disable_warnings()
 
-API_ENDPOINT="https://reiwa.aci.lab"
+API_ENDPOINT="https://<Your Cluster's FQDN>"
 
 rc = RestClient(API_ENDPOINT,credentials_file='credentials.json', verify=False)
 
